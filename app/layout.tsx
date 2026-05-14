@@ -19,6 +19,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'VelvetNest | Fashion, Home & Lifestyle Blog',
   description: 'Discover curated fashion inspiration, cozy home decor ideas, Amazon finds, beauty tips, and self-care rituals. Your destination for elegant living.',
+  verification: {
+    google: 'VNIYacXcf0rmfRE85E2TvSMkC_kWkblDkteJXIMavCk',
+  },
   keywords: ['fashion blog', 'home decor', 'amazon finds', 'outfit ideas', 'beauty', 'self care', 'lifestyle blog'],
   authors: [{ name: 'VelvetNest' }],
   creator: 'VelvetNest',

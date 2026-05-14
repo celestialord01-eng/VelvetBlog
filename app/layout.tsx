@@ -65,9 +65,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-background">
       <body className={`${cormorant.variable} ${inter.variable} font-serif antialiased`}>
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
+  <GoogleAnalytics />
+  {children}
+  {process.env.NODE_ENV === 'production' && <Analytics />}
+</body>
     </html>
   )
 }
